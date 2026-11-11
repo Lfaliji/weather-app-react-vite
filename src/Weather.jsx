@@ -59,6 +59,33 @@ export default function Weather() {
           </ul>
         </div>
       </div>
+      <hr />
+      <p>
+        This project was coded by{" "}
+        <a
+          href="https://github.com/Lfaliji"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Chadia Lfaliji
+        </a>
+        , is open-sourced on{" "}
+        <a
+          href="https://github.com/Lfaliji/weather-app-react-vite"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          GitHub
+        </a>{" "}
+        and hosted on{" "}
+        <a
+          href="https://weather-app-react-with-vite.netlify.app"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Netlify
+        </a>
+      </p>
     </div>
   );
 }
