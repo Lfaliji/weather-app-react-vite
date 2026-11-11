@@ -1,0 +1,59 @@
+.Weather {
+  max-width: 700px;
+}
+
+.Weather h1 {
+  line-height: 1.2;
+  font-weight: 500;
+  font-size: 28px;
+}
+
+.Weather ul {
+  list-style: none;
+}
+
+.Weather .temperature-icon {
+  position: relative;
+  bottom: 18px;
+}
+
+.Weather .temperature-figure {
+  font-size: 64px;
+}
+
+.Weather .temperature-unit-celsius {
+  position: relative;
+  bottom: 35px;
+  text-decoration: none;
+}
+
+.Weather .temperature-unit-celsius:hover {
+  text-decoration: underline;
+}
+
+.Weather .temperature-unit-divider {
+  position: relative;
+  bottom: 35px;
+}
+
+.Weather .temperature-unit-fahrenheit {
+  position: relative;
+  bottom: 35px;
+  text-decoration: none;
+}
+
+.Weather .temperature-unit-fahrenheit:hover {
+  text-decoration: underline;
+}
+
+.Weather .weather-details {
+  position: relative;
+  top: 15px;
+}
+
+@media (max-width: 576px) {
+  .Weather .weather-details ul {
+    margin-left: 0;
+    padding-left: 0;
+  }
+}
